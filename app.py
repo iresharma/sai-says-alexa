@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Path to the test file
-TEST_FILE_PATH = '/Users/iresharma/Documents/p10/Led-p10/messages.json'
+TEST_FILE_PATH = './messages.json'
 
 # Ensure the test file exists
 def ensure_file_exists():
